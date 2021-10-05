@@ -46,10 +46,22 @@ header li a {
 }
 
 .box-content {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.box-content h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 60px;
+    color: yellow;
+}
+
+.box:last-child .box-content h2 {
+    color: green;
 }
 
 #first-shoe {
@@ -70,6 +82,6 @@ header li a {
     background-color: cyan;
 } */
 
-.debug .box-content {
+/* .debug .box-content {
     background-color: blue;
-}
+} */
