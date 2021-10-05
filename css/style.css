@@ -41,6 +41,24 @@ header li a {
     border-radius: 50%;
 }
 
+/* *** header menu transition *** */
+
+header li:hover a {
+    transition: 0.5s;
+}
+
+header li:first-child:hover a {
+    background-color: rgb(255, 70, 70);
+}
+
+header li:nth-child(2):hover a {
+    background-color: rgb(70, 255, 70);
+}
+
+header li:last-child:hover a {
+    background-color: rgb(225, 225, 0);
+}
+
 /* ***** main ***** */
 
 .box {
