@@ -6,13 +6,35 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ***** header ***** */
 
 header {
     height: 100px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
+header li {
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 10px;
+}
 
+header li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
 
 /* +++++ debug +++++ */
 
